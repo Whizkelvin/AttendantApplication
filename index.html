@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class=" lg:px-[3%] scroll-smooth">
+    <!-- header -->
+    <header class="bg-red-800 w-full h-[10%]    lg:flex  lg:items-center justify-around  lg:sticky lg:z-40 lg:top-0 lg:w-full lg:h-[100px] lg:bg-zinc-200">
+       
+        <div class="flex justify-around items-center ">
+            <img src="./Images/logo-regent-sub.png" alt="Logo" class="h-14">
+
+            <img src="./Images/three-horizontal-lines-icon.png" alt="Hamburger" id="hm_menu" class="h-8 lg:hidden">
+        </div>
+        <!-- Search Bar -->
+        <div class="  lg:relative ">
+            <img src="./Images/search-interface-symbol.png" class="hidden lg:absolute lg:block lg:h-5 lg:top-3 lg:left-4">
+            <input type="text" placeholder="Search for Student" class="hidden lg:block lg:border-2 lg:w-96 lg:h-10 lg:focus:border  lg:focus:border-rose-600 lg:outline-none lg:pl-10 lg:rounded-full">
+        </div>
+        
+        <!-- nav link for big screen -->
+        <div class="hidden lg:flex font-sans">
+            <ul class="hidden lg:flex lg:text-black  text-xl lg:space-x-4  ">
+                <li class=" lg:hover:text-green-700 lg:transition lg:duration-1000 lg:focus:border lg:focus:border-black lg:hover:underline"><a href="#HOME">HOME</a></li>
+                <li class=" lg:hover:text-green-700 lg:transition lg:duration-1000 lg:focus:border lg:focus:border-black lg:hover:underline"><a href="#ATTENDANCE">ATTENDANCE</a></li>
+                <li class=" lg:hover:text-green-700 lg:transition lg:duration-1000 lg:focus:border lg:focus:border-black lg:hover:underline"><a href="#SEARCH">SEARCH</a></li>
+                <li class=" lg:hover:text-green-700 lg:transition lg:duration-1000 lg:focus:border lg:focus:border-black lg:hover:underline"><a href="#RECORDS">RECORDS</a></li>
+                <li class=" lg:hover:text-green-700 lg:transition lg:duration-1000 lg:hover:underline lg:focus:border "><a href="#ABOUT US">ABOUT </a></li>
+                
+            </ul>
+        </div>
+        <button class="hidden  lg:block lg:border-2 lg:rounded-full lg:px-6 lg:py-2 lg:hover:bg-green-900 lg:hover:text-white lg:transition lg:duration-700 lg:ease-in-out lg:shadow-md" >DONATE</button>
+
+      
+        <div id="nav-links" class=" hidden bg-slate-700 w-[50%] ml-[50%]  absolute top-0 z-50 h-[90%] ">
+            <!-- Nav links -->
+            
+            <button id="close-btn" class=" pl-5 text-black text-3xl ">X</button>
+            <ul class="px-[20%] text-2xl text-center text-white py-[10%] ">
+                <li><a  href="#HOME">HOME</a></li>
+                <li class="mt-3"><a href="#ATTENDANCE">ATTENDANCE</a></li>
+                <li class="mt-3"><a class="mt-10]" href="#SEARCH">SEARCH</a></li>
+                <li class="mt-3"><a  href="#RECORDS">RECORDS</a></li>
+                <li class="mt-3"><a  href="#ABOUT US">ABOUT US</a></li>
+                <li class="mt-3"><a  href="#ABOUT US">DONATE</a></li>
+                
+            </ul>
+        </div>
+    </header>  
+
+    <!-- main -->
+    <main id="#HOME" >
+        <!-- Home Page -->
+        <div class="">
+            <img src="./Images/background3.jpg" alt="Background" class="w-full lg:hidden">
+            <img src="./Images/background1.jpg" alt="" class="hidden lg:block " >
+
+          
+            </h1>
+        <div>
+    </main>
+        <!-- MAIN SECTION FOR ATTENDANCE -->
+        <section id="#ATTENDANCE">
+
+        
+        <!-- attendance form -->
+        <form action="" class="mt-[30px] px-[10%] pb-[10%]" id="#ATTENDANCE">
+           
+         <div class=" lg:grid lg:grid-cols-2 lg:gap-[5%]" >
+             <!-- First Name -->
+            <div class="relative shadow-lg lg:mt-7 ">
+                <input type="text" id="First Name" aria-describedby="" class="block px-2.5 pb-2.5 pt-4  w-full text-sm text-gray-900 bg-transparent rounded-lg border-2 border-black appearance-none dark:text-white dark:border-green-500 dark:focus:border-green-500 focus:outline-none focus:ring-0 focus:border-green-600 peer  hover:border-green-600 peer" placeholder=" " />
+                <label for="First Name" class="absolute text-lg text-black dark:text-green-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto">First Name</label>
+            </div>
+            <!-- Last Name -->
+            <div class="relative mt-[30px] shadow-lg">
+                <input type="text" id="Last Name" aria-describedby="" class="block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-2 border-black appearance-none dark:text-white dark:border-green-500 dark:focus:border-green-500 focus:outline-none focus:ring-0 focus:border-green-600 peer  hover:border-green-600 peer" placeholder=" " />
+                <label for="Last Name" class="absolute text-lg text-black dark:text-green-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto">Last Name</label>
+            </div>
+            <!-- Index Number -->
+            <div class="relative  mt-[30px] shadow-lg">
+                <input type="number" inputmode="numeric" id="Index Number" aria-describedby="" class="appearance-none block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-2 border-black  dark:text-white dark:border-green-500 dark:focus:border-green-500 focus:outline-none focus:ring-0 focus:border-green-600 peer  hover:border-green-600 peer" placeholder=" " />
+                <label for="Index Number" inputmode="numeric" class="absolute text-lg text-black dark:text-green-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto">Index Number</label>
+            </div>
+            <!-- Phone Number -->
+            <div class="relative mt-[30px] shadow-lg ">
+                <input type="number" id="Phone Number" inputmode="numeric" aria-describedby="" class=" block px-2.5 pb-2.5 pt-4 w-full text-sm text-gray-900 bg-transparent rounded-lg border-2 border-black appearance-none dark:text-white dark:border-green-500 dark:focus:border-green-500 focus:outline-none focus:ring-0 focus:border-green-600 peer  hover:border-green-600 peer" placeholder=" " />
+                <label for="Phone Number" class="absolute text-lg text-black dark:text-green-500 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white dark:bg-gray-900 px-2 peer-focus:px-2 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 start-1 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto">Phone Number</label>
+            </div>
+            <!-- Gender Drop-Down -->
+            <div class="select mt-[30px]">
+                    <select name="format" id="format" class="w-full   hover:border-green-600 peer border-2 border-black rounded px-5 py-2 cursor-pointer dark:text-white dark:border-green-500 dark:focus:border-green-500 focus:outline-none focus:ring-0 focus:border-green-600 peer transition duration-700 ease-in-out">
+                       <option selected disabled>Gender</option>
+                       <option value="Male">Male</option>
+                       <option value="Female">Female</option>
+                       
+                    </select>
+            </div>
+            <!-- Level -->
+            <div class="select mt-[30px]">
+                <select name="format" id="format" class="w-full  hover:border-green-600 peer border-2 border-black rounded px-5 py-2 cursor-pointer focus:border dark:text-white dark:border-green-500 dark:focus:border-green-500 focus:outline-none focus:ring-0 focus:border-green-600 peer transition duration-700 ease-in-out">
+                   <option selected disabled>Level</option>
+                   <option value="100">100</option>
+                   <option value="200">200</option>
+                   <option value="300">300</option>
+                   <option value="400">400</option>
+                   
+                </select>
+            </div>
+        </div>
+            <!-- Programes -->
+            <div class="select mt-[30px] lg:pt-[30px]">
+                <select name="format" id="format" class="w-full  hover:border-green-600 peer border-2 border-black rounded px-5 py-2 cursor-pointer focus:border dark:text-white dark:border-green-500 dark:focus:border-green-500 focus:outline-none focus:ring-0 focus:border-green-600 peer transition duration-700 ease-in-out">
+                   <option selected disabled>Programme</option>
+                   <option value="Computer Science">Computer Science</option>
+                   <option value="Information System Science">Information System Science</option>
+                   <option value="Management">Management</option>
+                   <option value="Accounting">Accounting</option>
+                   
+                </select>
+            </div>
+            <!-- Semester -->
+            <div class="select mt-[30px]">
+                <select name="format" id="format" class="w-full  hover:border-green-600 peer border-2 border-black rounded px-5 py-2 cursor-pointer focus:border dark:text-white dark:border-green-500 dark:focus:border-green-500 focus:outline-none focus:ring-0 focus:border-green-600 peer transition duration-700 ease-in-out">
+                   <option selected disabled>Semester</option>
+                   <option value="First Semester">First Semester</option>
+                   <option value="Second Semester">Second Semester</option>
+                   <option value="Trimester">Trimester</option>
+                   <option value=""></option>
+                </select>
+            </div>
+            <!-- Course -->
+            <div class="select mt-[30px]">
+                <select name="format" id="format" class="w-full border-2  hover:border-green-600 peer border-black rounded px-5 py-2 cursor-pointer focus:border dark:text-white dark:border-green-500 dark:focus:border-green-500 focus:outline-none focus:ring-0 focus:border-green-600 peer transition duration-700 ease-in-out">
+                   <option selected disabled>Course</option>
+                   <option value="Probability">Probability</option>
+                   <option value="Database">Database</option>
+                </select>
+            </div> 
+            <!--Attendent  -->
+            <div class="mt-[30px] text-lg border-2 border-black rounded px-5 py-2 cursor-pointer focus:border dark:text-white dark:border-green-500 dark:focus:border-green-500 focus:outline-none focus:ring-0 focus:border-green-600 peer transition duration-700 ease-in-out hover:border-green-600 peer">
+                <label for="">Attendant:</label><br>
+                <label for="Present" type="Present" class="ml-[20%] hover:text-green-500">Present </label>
+                <input type="radio" name="Attendant" id="present">
+                <label for="Absent" type="Present" class="ml-[20%] hover:text-green-500">Absent</label>
+                <input type="radio" name="Attendant" id="absent">
+            </div>
+            <!-- Date -->
+            <div class="mt-[30px] ">
+              
+            <input type="date" class="w-full border-2 border-black rounded px-5 py-2 cursor-pointer  hover:border-green-600 peer focus:border dark:text-white dark:border-green-500 dark:focus:border-green-500 focus:outline-none focus:ring-0 focus:border-green-600 peer transition duration-700 ease-in-out">  
+            </div>
+
+            <!-- submit -->
+            <div class="mt-[30px] ml-[20%]">
+                <button type="submit" class="w-[80%] text-white text-xl border-1 border-black rounded-full px-5 py-2 cursor-pointer bg-red-400  hover:bg-red-600 peer focus:border dark:text-white dark:border-green-500 dark:focus:border-green-500 focus:outline-none focus:ring-0 focus:border-green-600 peer transition duration-700 ease-in-out">SUBMIT</button>
+
+            </div>
+            
+            
+            
+
+        </form>
+        
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-green-600 w-full h-[10%] px-[10%]  grid grid-cols-2 ">
+        <!-- about us -->
+        <div class="pt-4 text-white">
+           <ul>
+                <li ><a  href="#Home">HOME</a></li>
+                <li class="mt-3"><a href="#ATTENDANCE">ATTENDANCE</a></li>
+                <li class="mt-3"><a class="mt-10]" href="#SEARCH">SEARCH</a></li>
+                <li class="mt-3"><a  href="#RECORDS">RECORDS</a></li>
+                <li class="mt-3"><a  href="#ABOUT US">ABOUT US</a></li>
+           </ul> 
+        </div>
+        <div class="text-lg uppercase text-white pt-4">
+            <h1>Contact</h1>
+           <p>0551423628 / 0505753571</p> 
+           <P class="mt-3">location</P>
+           <p>Menzkrom</p>
+
+            
+        </div>
+    </footer>
+
+
+    
+    <script src="./index.js"></script>
+</body>
+
+</html>
